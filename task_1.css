@@ -1,0 +1,138 @@
+.container_blue, .container_orange, .container_green
+{
+	display: inline-block;
+}
+
+.container_blue
+{
+	position: relative;
+	width: 300px;
+	height: 470px;
+	background: #37c2d3;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.container_orange
+{
+	position: relative;
+	width: 300px;
+	height: 470px;
+	background: #ee8129;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.container_green
+{
+	position: relative;
+	width: 300px;
+	height: 470px;
+	background: #1cb79a;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.header
+{
+	font-style: bold;
+	font-family: Trebuchet MS;
+	font-size: 24px;
+	color: white;
+	padding-top: 25px;
+}
+
+.whitefiled
+{
+	position: absolute;
+	width: 290px;
+	height: 390px;
+	background: #ffffff;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 22px;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+.inblock_iconik
+{
+	font-style: normal;
+	font-family: Trebuchet MS;
+	font-size: 24px;
+	padding-bottom: 20px;
+	margin-right: 35px;
+}
+
+.inblock_sallary
+{
+	font-style: bold;
+	font-family: Trebuchet MS;
+	font-size: 72px;
+	color: #35495a;
+	padding-bottom: 40px;
+	margin-right: 35px;
+}
+
+sup, sub
+{
+	font-style: normal;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	color: #35495a;
+}
+
+.inblock_descrioption_blue:before, .inblock_descrioption:before
+{
+	content: "✔";
+	color: #97be09;
+	padding-left: 45px;
+	padding-right: 15px;  
+
+}
+
+.inblock_descrioption_blue, .inblock_descrioption
+
+{
+	color: #888c94;
+	font-family: Trebuchet MS;
+	font-size: 15px;
+	font-style: normal;
+	width: 260px;
+	height: 25px;
+	margin-left: -25px;
+	margin-bottom: 1px;
+	padding-top: 5px;
+	text-align: left;
+}
+
+.inblock_descrioption_blue
+{
+	background: #edf5fd;
+}
+
+.inblock_descrioption
+{
+	background: #f5f5f6;
+}
+
+.inblock_fotter
+{
+	background: #ee8129;
+	width: 255px;
+	height: 30px;
+	margin-left: -23px;
+	margin-top: 20px;
+	padding-top: 10px;
+	color: white;
+	font-family: Trebuchet MS;
+	font-style: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(179,86,11,1);
+	-moz-box-shadow: 0px 3px 0px 0px rgba(179,86,11,1);
+	box-shadow: 0px 3px 0px 0px rgba(179,86,11,1);
+}
