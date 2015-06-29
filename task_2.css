@@ -15,20 +15,16 @@
 
 }
 
-.headtext
-{
-    position: absolute;
-	display: inline-block;
-	top: 100px;
-}
+
 
 .fistworld, .anotherworld
 {
+	display: inline-block;
 	font-size: 40px;
 	font-family: "Trebuchet MS";
 	color: #fb7700;
-
-	
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .anotherworld
@@ -36,10 +32,6 @@
 	color: #246daa;
 }
 
-/*.chart
-{
-position: relative;
-}*/
 
 .photogirl, .photoboy, .chartgirl, .chartboy, .chartline
 {
@@ -64,6 +56,13 @@ color: #727272;
 {
 	color: #3070a7;
 	padding-top: 10px;
+	display: inline-block;
+	font-style: italic;
+}
+
+.chart_right
+{
+	padding-left: 170px;
 }
 
 .chartline
@@ -72,10 +71,10 @@ color: #727272;
 	vertical-align: middle; 
 	border: 12px solid transparent;	
 	border-right: 17px solid #f6f6f6;
-	margin-bottom: 10px;
 }
 .chart_maintext
 {
+	display: block;
 	padding-top: 10px;
 }
 
