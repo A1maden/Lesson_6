@@ -35,3 +35,57 @@
 {
 	color: #246daa;
 }
+
+/*.chart
+{
+position: relative;
+}*/
+
+.photogirl, .photoboy, .chartgirl, .chartboy, .chartline
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.chartgirl, .chartboy
+{
+width: 365px;
+height: 100px;
+background-color: #f6f6f6;
+margin-left: -4px;
+margin-right: 40px;
+font-size: 13px;
+font-family: "Trebuchet MS";
+color: #727272;
+}
+
+
+.chart_left, .chart_right
+{
+	color: #3070a7;
+	padding-top: 10px;
+}
+
+.chartline
+{
+	margin-top: 37px;
+	vertical-align: middle; 
+	border: 12px solid transparent;	
+	border-right: 17px solid #f6f6f6;
+	margin-bottom: 10px;
+}
+.chart_maintext
+{
+	padding-top: 10px;
+}
+
+.chart_point 
+{
+font-size: 13px;
+font-family: Arial;
+}
+
+.photogirl, .photoboy
+{
+	margin-right: -10px;
+}
