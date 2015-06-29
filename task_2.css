@@ -1,0 +1,37 @@
+.main 
+{
+	position: relative;
+}
+
+.shadow 
+{
+	position: absolute;
+	background-color: #072036;
+	height: 315px;
+	width: 1400px;
+	top: 0px;
+	opacity: 0.95;
+	text-align: center;
+
+}
+
+.headtext
+{
+    position: absolute;
+	display: inline-block;
+	top: 100px;
+}
+
+.fistworld, .anotherworld
+{
+	font-size: 40px;
+	font-family: "Trebuchet MS";
+	color: #fb7700;
+
+	
+}
+
+.anotherworld
+{
+	color: #246daa;
+}
