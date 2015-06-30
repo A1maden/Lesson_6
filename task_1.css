@@ -78,10 +78,10 @@ font-size: 0px;
 	border-radius: 0px 0px 5px 5px;
 	border: 1px solid #e8eaec;
 }
+
 .whitefiled_green
 {
 	border-left: 0px solid #e8eaec;
-
 }
 
 .whitefiled_orange
@@ -133,7 +133,6 @@ sup, sub
 	color: #97be09;
 	padding-left: 45px;
 	padding-right: 15px;  
-
 }
 
 .inblock_descrioption_blue, .inblock_descrioption
@@ -185,5 +184,4 @@ sup, sub
 	-webkit-box-shadow: 0px 3px 0px 0px rgba(179,86,11,1);
 	-moz-box-shadow: 0px 3px 0px 0px rgba(179,86,11,1);
 	box-shadow: 0px 3px 0px 0px rgba(179,86,11,1);
-
 }
